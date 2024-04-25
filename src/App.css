@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sliders{
+  margin-left:50px;
+  width:50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.slider{
+  width:50%;
+}
+
+.chart-container{
+  width:50vw;
+  justify-content:end;
+  align-items: center;
+  margin-left: 100px;
+}
