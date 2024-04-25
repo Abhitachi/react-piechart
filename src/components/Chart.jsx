@@ -6,7 +6,7 @@ const Chart = ({ homePrice, downPayment, loanAmount, interestRate,LoanChange }) 
   
   return (
     <>
-      <h5 style={{ marginLeft: "70px" }}>Monthly Payment: ${LoanChange}</h5>
+      <h5 style={{ marginLeft: "70px" }}>Monthly Payment: Rs.{LoanChange}</h5>
       <PieChart
         colors={["#ff99c2", "#809fff", "#47d147", "ffff66"]}
         series={[
